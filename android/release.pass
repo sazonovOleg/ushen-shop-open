@@ -1,0 +1,4 @@
+keystore=../key.jks
+storePassword=ushenshop
+keyAlias=ushen_alias
+keyPassword=ushenshop

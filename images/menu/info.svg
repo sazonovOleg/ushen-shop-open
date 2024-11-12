@@ -1,0 +1,11 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path d="m64 19a44.991 44.991 0 0 0 -38.969 67.492l-6.031 22.508 22.507-6.031a45 45 0 1 0 22.493-83.969z"
+              fill="#6ed1d3" style="fill: rgb(255, 255, 255);"></path>
+        <g fill="#fff8d9">
+            <path d="m64 57.818a5 5 0 0 0 -5 5v20.661a5 5 0 0 0 10 0v-20.661a5 5 0 0 0 -5-5z" fill="#fff8d9"
+                  style="fill: rgb(0, 0, 0);"></path>
+            <circle cx="64" cy="44.521" r="5" fill="#fff8d9" style="fill: rgb(0, 0, 0);"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD8FB5WQ_psX4bu6lSsYjaZu73A9BJwiRg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>346673952713</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.olegsazCO.apps.untitled</string>
+	<key>PROJECT_ID</key>
+	<string>tea-shop-flutter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tea-shop-flutter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:346673952713:ios:60679106a1cb3a71f6da18</string>
+</dict>
+</plist>

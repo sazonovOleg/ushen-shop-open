@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "346673952713",
+    "project_id": "tea-shop-flutter",
+    "storage_bucket": "tea-shop-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346673952713:android:a386532fa5aecc92f6da18",
+        "android_client_info": {
+          "package_name": "com.olegsazCO.apps.ushen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMsLjXk6OTCgyXmhmiizB9Y_dAR_0csGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

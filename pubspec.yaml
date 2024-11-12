@@ -1,0 +1,83 @@
+name: TeaShopApp
+description: Tea shop app for ios & android
+
+publish_to: 'none'
+version: 1.1.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # provider
+  provider: ^6.0.5
+  # firebase
+  ###  firebase_auth: ^4.7.2
+  ###  firebase_messaging: ^14.2.1
+  firebase_core: ^2.4.1
+  firebase_analytics: ^10.4.5
+  firebase_crashlytics: ^3.4.9
+  # storage
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.0
+  shared_preferences: ^2.2.0
+  # json
+  json_serializable: ^6.5.4
+  json_annotation: ^4.8.1
+  # api
+  dio: ^4.0.6
+  #image
+  cached_network_image: ^3.3.1
+  #stream
+  rxdart: ^0.27.7
+  intl: ^0.17.0
+  # ui
+  material_color_utilities: 0.8.0
+  flutter_svg: ^2.0.10+1
+  buttons_tabbar: ^1.3.8
+  carousel_slider: ^4.2.1
+  lottie: 2.7.0
+  # local_notify
+  # flutter_local_notifications: ^8.0.0
+  # navigation
+  go_router: 13.2.0
+  # url launcher
+  url_launcher: 6.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+
+flutter:
+
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Comfortaa-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Comfortaa-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Comfortaa-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Comfortaa-Bold.ttf
+          weight: 700
+
+  assets:
+    - images/
+    - images/menu/
+    - images/shop/
+    - images/animations/
+    - images/profile/
+    - images/cart/
+    - assets/raw/cert.pem
+
+  uses-material-design: true
+
+
+
