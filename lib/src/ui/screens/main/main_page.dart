@@ -37,7 +37,7 @@ class _WidgetState extends State<MainPage> {
               icon: Container(
                 padding: const EdgeInsets.only(bottom: 7),
                 child: SvgPicture.asset(
-                  'images/menu/tea.svg',
+                  'assets/images/menu/tea.svg',
                   width: 25,
                   height: 25,
                 ),
@@ -66,7 +66,7 @@ class _WidgetState extends State<MainPage> {
                 child: Container(
                   padding: const EdgeInsets.only(bottom: 7),
                   child: SvgPicture.asset(
-                    'images/menu/cart.svg',
+                    'assets/images/menu/cart.svg',
                     width: 25,
                     height: 25,
                   ),
@@ -79,7 +79,7 @@ class _WidgetState extends State<MainPage> {
               icon: Container(
                 padding: const EdgeInsets.only(bottom: 7),
                 child: SvgPicture.asset(
-                  'images/menu/user.svg',
+                  'assets/images/menu/user.svg',
                   width: 25,
                   height: 25,
                 ),
@@ -91,7 +91,7 @@ class _WidgetState extends State<MainPage> {
               icon: Container(
                 padding: const EdgeInsets.only(bottom: 7),
                 child: SvgPicture.asset(
-                  'images/menu/order.svg',
+                  'assets/images/menu/order.svg',
                   width: 25,
                   height: 25,
                 ),
@@ -103,7 +103,7 @@ class _WidgetState extends State<MainPage> {
               icon: Container(
                 padding: const EdgeInsets.only(bottom: 7),
                 child: SvgPicture.asset(
-                  'images/menu/info.svg',
+                  'assets/images/menu/info.svg',
                   width: 25,
                   height: 25,
                 ),

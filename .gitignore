@@ -31,7 +31,6 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-/assets/raw/cert.pem
 
 # Symbolication related
 app.*.symbols

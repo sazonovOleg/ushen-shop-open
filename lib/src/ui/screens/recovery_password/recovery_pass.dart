@@ -58,7 +58,7 @@ class _WidgetState extends State<RecoveryPassPage> {
                 ),
                 AppBtn(
                   btnText: Strings.resetPass,
-                  iconPath: 'images/profile/reset_pass.svg',
+                  iconPath: 'assets/images/profile/reset_pass.svg',
                   onTap: () => vm.resetPass(),
                   disabled: !vm.isValidateEmail,
                 ),

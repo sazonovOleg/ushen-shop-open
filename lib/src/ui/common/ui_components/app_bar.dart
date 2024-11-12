@@ -14,7 +14,7 @@ class AppBarComponent extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: true,
       automaticallyImplyLeading: automaticallyImplyLeading,
       title: const Image(
-        image: AssetImage('images/logo.png'),
+        image: AssetImage('assets/images/logo.png'),
         width: 140,
         height: 28,
       ),

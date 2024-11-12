@@ -123,7 +123,7 @@ class _LoginTab extends StatelessWidget {
           ),
           AppBtn(
             btnText: Strings.login,
-            iconPath: 'images/profile/login.svg',
+            iconPath: 'assets/images/profile/login.svg',
             onTap: () => vm.login(context),
             disabled: vm.disabledLoginBtn(),
           ),
@@ -188,7 +188,7 @@ class _RegistrationTab extends StatelessWidget {
           ),
           AppBtn(
             btnText: Strings.register,
-            iconPath: 'images/profile/user_add.svg',
+            iconPath: 'assets/images/profile/user_add.svg',
             onTap: () => vm.registration(context),
             disabled: vm.disabledRegBtn(),
           ),

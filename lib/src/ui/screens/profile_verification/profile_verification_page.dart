@@ -50,7 +50,7 @@ class _WidgetState extends State<ProfileVerificationPage> {
               ),
               AppBtn(
                 btnText: Strings.send,
-                iconPath: 'images/profile/send.svg',
+                iconPath: 'assets/images/profile/send.svg',
                 onTap: () => vm.sendToken(context),
                 disabled: !vm.isVerify,
               )

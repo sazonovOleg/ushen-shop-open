@@ -42,7 +42,7 @@ class _WidgetState extends State<ShopPage> {
             : const SizedBox(),
         centerTitle: true,
         title: const Image(
-          image: AssetImage('images/logo.png'),
+          image: AssetImage('assets/images/logo.png'),
           width: 140,
           height: 28,
         ),
@@ -180,7 +180,7 @@ class _ProductListItem extends StatelessWidget {
                 errorWidget: (context, url, error) => const Center(
                   child: Image(
                     image: AssetImage(
-                      'images/nophoto.png',
+                      'assets/images/nophoto.png',
                     ),
                     width: 100,
                     height: 100,

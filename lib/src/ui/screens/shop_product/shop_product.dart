@@ -94,7 +94,7 @@ class _Slider extends StatelessWidget {
                     errorWidget: (context, url, error) => const Center(
                       child: Image(
                         image: AssetImage(
-                          'images/nophoto.png',
+                          'assets/images/nophoto.png',
                         ),
                         width: 100,
                         height: 100,
@@ -129,7 +129,7 @@ class _TabsBar extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.only(bottom: 7),
                   child: SvgPicture.asset(
-                    'images/shop/add_basket.svg',
+                    'assets/images/shop/add_basket.svg',
                     width: 45,
                     height: 45,
                   ),
@@ -139,7 +139,7 @@ class _TabsBar extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.only(bottom: 7),
                   child: SvgPicture.asset(
-                    'images/shop/info.svg',
+                    'assets/images/shop/info.svg',
                     width: 45,
                     height: 45,
                   ),
@@ -149,7 +149,7 @@ class _TabsBar extends StatelessWidget {
                 child: Container(
                   padding: const EdgeInsets.only(bottom: 7),
                   child: SvgPicture.asset(
-                    'images/shop/teapot.svg',
+                    'assets/images/shop/teapot.svg',
                     width: 45,
                     height: 45,
                   ),
@@ -355,7 +355,7 @@ class _TeaCard extends StatelessWidget {
                   vm.teaInStock()
                       ? AppBtn(
                           btnText: 'Добавить в коризну',
-                          iconPath: 'images/shop/add_basket.svg',
+                          iconPath: 'assets/images/shop/add_basket.svg',
                           onTap: () => vm.addToCart(),
                           disabled: false,
                         )

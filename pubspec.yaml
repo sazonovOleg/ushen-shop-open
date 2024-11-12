@@ -69,12 +69,12 @@ flutter:
           weight: 700
 
   assets:
-    - images/
-    - images/menu/
-    - images/shop/
-    - images/animations/
-    - images/profile/
-    - images/cart/
+    - assets/images/
+    - assets/images/menu/
+    - assets/images/shop/
+    - assets/images/animations/
+    - assets/images/profile/
+    - assets/images/cart/
     - assets/raw/cert.pem
 
   uses-material-design: true

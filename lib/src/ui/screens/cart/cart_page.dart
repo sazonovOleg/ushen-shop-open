@@ -34,7 +34,7 @@ class _WidgetState extends State<CartPage> {
       appBar: AppBar(
         centerTitle: true,
         title: const Image(
-          image: AssetImage('images/logo.png'),
+          image: AssetImage('assets/images/logo.png'),
           width: 140,
           height: 28,
         ),
@@ -118,13 +118,13 @@ class _WidgetState extends State<CartPage> {
                 child: vm.isLogin
                     ? AppBtn(
                         btnText: Strings.placeAnOrder,
-                        iconPath: 'images/cart/done.svg',
+                        iconPath: 'assets/images/cart/done.svg',
                         onTap: () => vm.goToOrder(context),
                         disabled: false,
                       )
                     : AppBtn(
                         btnText: Strings.authorization,
-                        iconPath: 'images/profile/login.svg',
+                        iconPath: 'assets/images/profile/login.svg',
                         onTap: () => vm.goToProfile(context),
                         disabled: false,
                       ),
@@ -175,7 +175,7 @@ class _CartBox extends StatelessWidget {
             ),
             child: AppBtn(
               btnText: Strings.clearCart,
-              iconPath: 'images/cart/clear_cart.svg',
+              iconPath: 'assets/images/cart/clear_cart.svg',
               onTap: () => vm.clearCart(),
               disabled: false,
             ),
@@ -230,7 +230,7 @@ class _CartItem extends StatelessWidget {
             errorWidget: (context, url, error) => const Center(
               child: Image(
                 image: AssetImage(
-                  'images/nophoto.png',
+                  'assets/images/nophoto.png',
                 ),
                 width: 30,
                 height: 30,
@@ -300,7 +300,7 @@ class _CartItem extends StatelessWidget {
               width: 80,
               height: 80,
               child: SvgPicture.asset(
-                'images/cart/remove.svg',
+                'assets/images/cart/remove.svg',
                 width: 38,
                 height: 38,
               ),

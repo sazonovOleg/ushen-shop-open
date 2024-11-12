@@ -99,7 +99,7 @@ class _WidgetState extends State<ProfileInfoPage> {
                   ),
                   AppBtn(
                     btnText: 'Выйти',
-                    iconPath: 'images/profile/login.svg',
+                    iconPath: 'assets/images/profile/login.svg',
                     onTap: () => vm.logout(),
                     disabled: false,
                   ),

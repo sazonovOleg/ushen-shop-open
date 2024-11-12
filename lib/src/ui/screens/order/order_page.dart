@@ -179,7 +179,7 @@ class _OrderBox extends StatelessWidget {
           ),
           AppBtn(
             btnText: Strings.placeAnOrder,
-            iconPath: 'images/cart/done.svg',
+            iconPath: 'assets/images/cart/done.svg',
             onTap: () => vm.createOrder(),
             disabled: vm.disabledBtn(),
           ),
@@ -214,7 +214,7 @@ class _OrderDone extends StatelessWidget {
           ),
           AppBtn(
             btnText: Strings.returnHome,
-            iconPath: 'images/home.svg',
+            iconPath: 'assets/images/home.svg',
             onTap: () => vm.goToShopPage(context),
             disabled: false,
           ),

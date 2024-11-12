@@ -11,7 +11,7 @@ class LottieLoading extends StatelessWidget {
       width: 350,
       height: 350,
       child: Lottie.asset(
-        'images/animations/loading.json',
+        'assets/images/animations/loading.json',
         width: 250,
         height: 250,
       ),
@@ -29,7 +29,7 @@ class LottieEmpty extends StatelessWidget {
       width: 350,
       height: 350,
       child: Lottie.asset(
-        'images/animations/empty.json',
+        'assets/images/animations/empty.json',
         width: 280,
         height: 280,
         fit: BoxFit.cover,
@@ -48,7 +48,7 @@ class LottieCartAdded extends StatelessWidget {
       width: double.infinity,
       height: 200,
       child: Lottie.asset(
-        'images/animations/cart.json',
+        'assets/images/animations/cart.json',
         width: 100,
         height: 100,
         fit: BoxFit.cover,
@@ -67,7 +67,7 @@ class LottieClearDone extends StatelessWidget {
       width: double.infinity,
       height: 400,
       child: Lottie.asset(
-        'images/animations/clear_3.json',
+        'assets/images/animations/clear_3.json',
         width: 220,
         height: 220,
         fit: BoxFit.cover,
